@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin: auto;
+    margin-top: 35px;
+}
+
+.slash {
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+
+.logo {
+    width: 180px;
+    float: left;
+    margin-left: 65px;
+}
+
+.phone {
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+
+.email {
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+
+.download_btn {
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+
+.chat_btn {
+    width: 220px;
+    float: left;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.chat_btn button {
+    height: 34px;
+    width: 34px;
+    background: #fff;
+    margin-left: 20px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(116, 116, 116, .16);
+}
+
+#download_icon {
+    margin-left: 5px;
+}
+
+/* Section One Start */
+.container-1 {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.half-1 .half-2 {
+    width: 50%;
+}
+
+.half-1 {
+    float: left;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+
+.half-2 {
+    float: right;
+}
+
+.section-1 .sub-title-1 button {
+    color: #DF5646;
+    position: relative;
+    top: 95px;
+    left: 50px;
+    background-color: #FBF1E7;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+    margin-left: 115px;
+}
+
+.section-1 {
+    position: absolute;
+}
+
+.section-1 .sub-title-1::before {
+    content: '';
+    position: relative;
+    top: 111px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background-color: #1D2043;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #1D2043;
+}
+
+.half-1 .slide-title h1 {
+    line-height: 1.2;
+}
+
+.half-1 .slide-title h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.half-1 .slide-title p {
+    color: #BABBBD;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.half-1 .slide-title b {
+    color: black;
+}
+
+.half-1 .slide-title h1 {
+    font-size: 70px;
+}
+
+.half-1 .slide-title h3 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.half-2 img {
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.slide-img {
+    position: relative;
+}
+
+.slide-img .shape-one {
+    position: absolute;
+    top: 15px;
+    left: 28%;
+    max-width: 15%;
+}
+
+.slide-img .shape-two {
+    position: absolute;
+    top: 0;
+    right: 30%;
+    max-width: 10%;
+}
+
+.half-1 .slide-title .hire-btn {
+    position: relative;
+    color: #fff;
+    background-color: #DF5646;
+    padding: 18px 25px;
+    margin-top: 45px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    /* align-items: center;
+    display: inline-flex;
+    justify-content: center; */
+    box-shadow: 0 16px 16px rgba(116, 113, 113, .16);
+}
+
+.half-1 .soical i {
+    color: #A3A5A7;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.half-1 .soical i:hover {
+    color: #DF5646;
+    /* height: 34px;
+    width: 34px;
+    background: #fff; */
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(116, 116, 116, .16);
+    transition: .3s ease;
+}
+
+/* Section One End */
+
+
+/* Section Two Start */
+.section-2 .sub-title-2 button {
+    color: #DF5646;
+    position: relative;
+    top: 665px;
+    left: 50px;
+    background-color: #FBF1E7;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+    margin-left: 115px;
+}
+
+.section-2 {
+    position: absolute;
+}
+
+.section-2 .sub-title-2::before {
+    content: '';
+    position: relative;
+    top: 680px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background-color: #1D2043;
+}
+
+.half-3,
+.half-4 {
+    width: 50%;
+}
+
+.half-3 .slide-img-2 {
+    margin-top: 850px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.half-3,
+.shape-three {
+    position: absolute;
+    left: 0;
+    top: 12%;
+}
+
+.half-3,
+.shape-four {
+    position: absolute;
+    top: 0;
+    right: -60px;
+}
+
+.half-4,
+.slide-title-2 {
+    margin-top: 800px;
+    float: right;
+}
+
+
+
+
+
+/* .section-2 .sub-title button {
+    color: #DF5646;
+    position: relative;
+    top: 95px;
+    left: 50px;
+    background-color: #FBF1E7;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+    margin-left: 115px;
+}
+
+.section-2 {
+    position: absolute;
+}
+
+.section-2 .sub-title::before {
+    content: '';
+    position: relative;
+    top: 111px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background-color: #1D2043;
+} */
